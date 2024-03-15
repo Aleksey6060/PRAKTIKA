@@ -1,0 +1,16 @@
+﻿<Window x:Class="PRAKTIKA1._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRAKTIKA1._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,68,0,0">
+        <DataGrid x:Name="grid_customer"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Button Content="Страница 2" Click ="but2"  HorizontalAlignment="Left" Margin="229,-52,0,0" VerticalAlignment="Top" Height="35" Width="136"/>
+        <Button Content="Страница 3" Click ="but3"  HorizontalAlignment="Left" Margin="412,-52,0,0" VerticalAlignment="Top" Height="35" Width="136"/>
+        <Button Content="Страница 1" Click ="but1"  HorizontalAlignment="Left" Margin="60,-52,0,0" VerticalAlignment="Top" Height="35" Width="136"/>
+    </Grid>
+</Window>
