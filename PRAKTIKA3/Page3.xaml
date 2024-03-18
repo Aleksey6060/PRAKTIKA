@@ -1,0 +1,27 @@
+﻿<Page x:Class="PRAKTIKA3.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PRAKTIKA3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid Background="AliceBlue">
+        <DataGrid x:Name="grid_products" Margin="0,55,0,201" SelectionChanged="grid_products_SelectionChanged"/>
+        <Button Content="Страница 1" Click="Button_Click1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="30" Width="86"/>
+        <TextBlock HorizontalAlignment="Left" Margin="670,10,0,0" TextWrapping="Wrap" Text="Страница 3" VerticalAlignment="Top" Width="120" Height="30"/>
+        <Button Content="Страница 2" Click="Button_Click2" HorizontalAlignment="Left" Margin="101,10,0,0" VerticalAlignment="Top" Height="30" Width="86"/>
+        <TextBlock HorizontalAlignment="Left" Margin="670,10,0,0" TextWrapping="Wrap" Text="Страница 3" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,254,0,0" TextWrapping="Wrap" x:Name="ProductName" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="144,254,0,0" TextWrapping="Wrap" x:Name="ProductDescription" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="280,254,0,0" TextWrapping="Wrap" x:Name="Price" VerticalAlignment="Top" Width="120" Height="30"/>
+        <Button Content="Добавить" Click="Dob3" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Height="30" Width="390"/>
+        <Button Content="Удалить" Click="Del3" HorizontalAlignment="Left" Margin="450,254,0,0" VerticalAlignment="Top" Height="65" Width="280"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,353,0,0" TextWrapping="Wrap" x:Name="ProductNameIzm" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="145,353,0,0" TextWrapping="Wrap" x:Name="ProductDescriptionIzm" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="280,353,0,0" TextWrapping="Wrap" x:Name="PriceIzm" VerticalAlignment="Top" Width="120" Height="30"/>
+        <Button Content="Изменить" Click="Izm3" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Height="30" Width="390"/>
+    </Grid>
+</Page>
